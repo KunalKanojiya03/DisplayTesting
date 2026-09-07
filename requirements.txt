@@ -1,34 +1,35 @@
 # --- GUI ---
-PyQt5==5.15.11
+PyQt5>=5.15.11
 
 # --- Camera / Vision ---
-opencv-python==4.9.0.80
+opencv-python>=4.9.0.80
 
 # --- Serial / Modbus communication ---
-pyserial==3.5
-pymodbus==3.11.1
+pyserial>=3.5
+pymodbus>=3.11.1
 
 # --- Detection (YOLOv5 core deps) ---
+# torch/torchvision pinned together - must stay compatible pair
 torch==2.4.1
 torchvision==0.19.1
-ultralytics==8.3.134
-numpy==1.26.4
-PyYAML==6.0.2
-matplotlib==3.7.5
-seaborn==0.13.2
-scipy==1.16.1
-Pillow==10.2.0
-requests==2.33.1
-tqdm==4.67.1
-psutil==7.0.0
-thop==0.1.1.post2209072238
-GitPython==3.1.44
+ultralytics>=8.3.134
+numpy>=1.26.4,<2.0
+PyYAML>=6.0.2
+matplotlib>=3.7.5
+seaborn>=0.13.2
+scipy>=1.10.0
+Pillow>=10.2.0
+requests>=2.33.1
+tqdm>=4.67.1
+psutil>=7.0.0
+thop>=0.1.1
+GitPython>=3.1.44
 
 # --- Reporting (uses matplotlib's PdfPages, no extra PDF lib needed) ---
-pandas==2.0.3
+pandas>=2.0.3
 
 # --- Windows device queries (checkdevice.py) ---
-pywin32==311
+pywin32>=311
 
 # --- Packaging ---
-pyinstaller==6.21.0
+pyinstaller>=6.21.0
