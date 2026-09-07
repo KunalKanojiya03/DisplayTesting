@@ -1,5 +1,12 @@
 # Display Utility V3.0
 
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![Framework](https://img.shields.io/badge/GUI-PyQt5-41cd52)
+![Detection](https://img.shields.io/badge/detection-YOLOv5-00FFFF)
+![License](https://img.shields.io/badge/YOLOv5%20license-AGPL--3.0-red)
+![Build](https://github.com/KunalKanojiya03/DisplayTesting/actions/workflows/ci.yml/badge.svg)
+
 A PyQt5 desktop application for automated **LCD/LED display testing and verification**, using **YOLOv5** for computer-vision-based detection and **Modbus/Serial** communication to interface with connected hardware.
 
 ---
