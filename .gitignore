@@ -1,0 +1,11 @@
+# Build/output artifacts
+output/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+pyqtenv/
+dist/
+
+# Model weights (check size first, see below)

@@ -1,0 +1,11 @@
+{
+    "COM_PORT": "COM1",
+    "BAUD_RATE": "19200",
+    "DATA_BITS": "8",
+    "PARITY": "N",
+    "STOP_BITS": "2",
+    "TIMEOUT": "0.02",
+    "DISPLAY_TYPE": "LCD",
+    "PAGE_COUNT": 7,
+    "WHITE_DISPLAY": false
+}
